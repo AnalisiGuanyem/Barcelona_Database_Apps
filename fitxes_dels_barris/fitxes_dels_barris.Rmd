@@ -50,8 +50,8 @@ ciutat <- ciutat[order(ciutat$barris, decreasing=F),]
 
 ```{r choosing_options, echo=F, results="hide"}
 # Choosing the analyzed district/neighborhood
-analyzing <- 'districte'    # write 'districte' or 'barri'
-num_analyzed <- 10      # visit 'https://github.com/AnalisiGuanyem/Barcelona_Database#readme'
+analyzing <- 'barri'    # write 'districte' or 'barri'
+num_analyzed <- 14      # visit 'https://github.com/AnalisiGuanyem/Barcelona_Database#readme'
                         # to chose the number of district or neighborhood
 
 # Name of the  district/neighborhood (automatic):
@@ -1132,7 +1132,7 @@ trash <- gsub("^ / ","",trash,perl=T)
 
 
 
-Altres incovenients, relacionats amb el turisme, i que afecten al barri (sense filtratge previ): *`r trash`*
+Altres opinions relacionades amb espais públic dels quals el barri patir certa mancança (sense filtratge previ): *`r trash`*
 
 .
 
